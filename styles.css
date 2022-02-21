@@ -249,6 +249,13 @@ a {
   object-position: center;
 }
 
+.card.eagles img {
+    position: absolute;
+
+    height: 150%;
+    top: -20%;
+}
+
 @media only screen and (max-width: 900px) {
   .portfolio {
     width: var(--width-mobile);
