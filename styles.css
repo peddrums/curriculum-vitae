@@ -250,13 +250,15 @@ a {
 }
 
 .card.eagles img {
-    position: absolute;
+  position: absolute;
 
-    height: 150%;
-    top: -20%;
+  height: 150%;
+  top: -20%;
 }
 
-.rudimental, .east17, .shalamar {
+.rudimental,
+.east17,
+.shalamar {
   justify-content: center;
   align-items: center;
 }
