@@ -256,6 +256,11 @@ a {
     top: -20%;
 }
 
+.rudimental, .east17 {
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 900px) {
   .portfolio {
     width: var(--width-mobile);
