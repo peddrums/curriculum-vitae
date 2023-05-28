@@ -327,3 +327,36 @@ a:hover {
     border-bottom: 1px solid #ccc;
   }
 }
+
+/*.logo-container {
+  width: 100%;
+}*/
+
+.audio-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.audiologoimg {
+  margin: .5rem;
+  width: 15rem;
+}
+
+.audiologoimg-db {
+  margin: .5rem;
+  height: 4.92rem;
+  width: 19.7rem;
+}
+.audiologoimg-la {
+  margin: .5rem;
+  height: 2.84rem;
+  width: 25.5rem;
+}
+
+.audiologoimg-meyer {
+  margin: .5rem;
+  height: 6.53rem;
+  width: 14.5rem;
+}
