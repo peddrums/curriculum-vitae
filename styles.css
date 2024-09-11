@@ -277,6 +277,11 @@ a:hover {
   align-items: center;
 }
 
+.stayingRelevant img {
+  object-fit: cover;
+  position: absolute;
+}
+
 @media only screen and (max-width: 900px) {
   .portfolio {
     width: var(--width-mobile);
