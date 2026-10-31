@@ -106,6 +106,25 @@ a:hover {
   font-weight: bold;
 }
 
+.language a {
+  font-size: 2rem;
+  text-decoration: none;
+  align-content: center;
+}
+
+.language a:hover {
+  color: orange;
+}
+
+.language span{
+  font-size: 4rem;
+  text-decoration: none;
+}
+
+.flag a {
+  text-decoration: none;
+}
+
 .header__profile-details {
   max-width: 1100px;
   margin: auto;
