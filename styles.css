@@ -209,6 +209,7 @@ a:hover {
   .bio {
     flex-direction: column;
   }
+
   .bio__left,
   .bio__right {
     width: var(--width-mobile);
@@ -226,6 +227,41 @@ a:hover {
   margin: auto;
 }
 
+.cards__headline {
+  margin: auto;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card__headline,
+.card__headline--eos {
+  width: 40rem;
+  overflow: hidden;
+
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+
+  align-self: stretch;
+
+  border-radius: 3px;
+
+  box-shadow: var(--box-shadow);
+
+}
+
+.card__header__headline {
+  height: 80rem;
+}
+
+.card__headline--eos img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
 .portfolio .cards {
   margin: auto;
 
@@ -234,20 +270,13 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.cards__headline {
-  height:40rem;
-    margin: auto;
 
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
 
 .card {
   width: 20rem;
   overflow: hidden;
 
-  margin-bottom: 2rem;  
+  margin-bottom: 2rem;
   padding-bottom: 2rem;
 
   align-self: stretch;
@@ -257,20 +286,7 @@ a:hover {
   box-shadow: var(--box-shadow);
 }
 
-.card__headline {
-  width: 40rem;
-  overflow: hidden;
 
-  margin-bottom: 2rem;  
-  padding-bottom: 2rem;
-
-  align-self: stretch;
-
-  border-radius: 3px;
-
-  box-shadow: var(--box-shadow);
-
-}
 
 .card__header {
   height: 12.5vh;
@@ -299,7 +315,7 @@ a:hover {
 }
 
 .card__header {
-  
+
   position: relative;
 }
 
@@ -317,11 +333,13 @@ a:hover {
   position: absolute;
   top: 0;
 }
+
 .card.stones img {
   position: absolute;
   top: 0;
   left: 0;
 }
+
 .card.slam-dunk img {
   object-fit: contain;
 }
@@ -362,6 +380,30 @@ a:hover {
 @media only screen and (max-width: 900px) {
   .portfolio {
     width: var(--width-mobile);
+  }
+
+  .card__headline,
+  .card__headline--eos {
+    width: 20rem;
+    overflow: hidden;
+
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+
+    align-self: stretch;
+
+    border-radius: 3px;
+
+    box-shadow: var(--box-shadow);
+  }
+
+  .card__header__headline {
+    height: 16vh;
+  }
+
+  .card__headline--eos img {
+    width: 100%;
+
   }
 }
 
@@ -431,6 +473,7 @@ a:hover {
   height: 4.92rem;
   width: 19.7rem;
 }
+
 .audiologoimg-la {
   margin: 0.5rem;
   height: 2.84rem;
